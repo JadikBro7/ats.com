@@ -1,0 +1,86 @@
+/* guidelines.css */
+
+/* Reset default styles */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set global styles */
+body {
+  background-color: #0f0f0f;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 110px;
+  height: 110px;
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+
+.scroll-container {
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  outline: 2px solid purple; /* Add purple outline */
+  scrollbar-width: thin;
+  scrollbar-color: #000000 #800080;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #000000;
+  border-radius: 5px;
+}
+
+
+
+
+.guidelines-text {
+  text-align: left;
+}
+
+.scroll-container p:first-child {
+  font-weight: bold;
+}
+
+.footer-text {
+  position: fixed;
+  color: #666666;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
+
+/* Add styling for the footer image */
+.footer-image {
+  display: block;
+  max-width: 100%;
+  height: 50%;
+  width: 50%;
+}

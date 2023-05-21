@@ -1,0 +1,44 @@
+body {
+    background-color: #0f0f0f;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 50px;
+  }
+  
+  .logo-container {
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 110px;
+    height: 110px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .about-section {
+    border: 2px solid #800080;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 0px; /* Adjust the margin-top value to move the section up */
+    border-radius: 10px; /* Add rounded corners */
+  }
+  
+  .about-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 0;
+  }  
